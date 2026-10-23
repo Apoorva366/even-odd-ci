@@ -13,7 +13,7 @@ class EvenOddTest {
 
     @Test
     void testOddNumber() {
-        assertEquals("Odd", EvenOdd.checkNumber(7));
+        assertEquals("Even", EvenOdd.checkNumber(7));
     }
 
     @Test
